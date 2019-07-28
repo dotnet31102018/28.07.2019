@@ -1,0 +1,15 @@
+﻿<Window x:Class="homeWork_24jul19.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:homeWork_24jul19"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Border Name="border1" Background="Gray" Height="99" Margin="0,0,0.333,0">
+            
+        </Border>
+        <Button Height="163" HorizontalAlignment="Left" Width="300" Margin="263,0,0,0" Content="Press" FontSize="50" Click="Button_Click"/>
+    </StackPanel>
+</Window>
